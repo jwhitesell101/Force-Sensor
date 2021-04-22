@@ -9,7 +9,6 @@ void setup() {
 }
 
 void loop() {
-  int force;
   int FSRReading = analogRead(FSR_Pin);
   lcd.clear();
   lcd.setCursor(0, 0);
