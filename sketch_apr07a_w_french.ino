@@ -1,7 +1,9 @@
 #include <LiquidCrystal.h> //new
 LiquidCrystal lcd(4, 5, 6, 7, 8, 9);
-int FSR_Pin =  A0;
+
 //analog pin
+int FSR_Pin =  A0;
+
 void setup() {
   Serial.begin(9600);
 }
