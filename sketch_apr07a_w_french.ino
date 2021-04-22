@@ -4,8 +4,6 @@ int FSR_Pin =  A0;
 //analog pin
 void setup() {
   Serial.begin(9600);
-
-
 }
 
 void loop() {
@@ -18,7 +16,6 @@ void loop() {
   lcd.print(FSRReading);
 
   Serial.println(FSRReading);
-
 
   delay(1000); //makes output faster or slower
 }
